@@ -89,6 +89,7 @@ impl<T> List<T>  where T: Copy + Debug{
     pub fn pop_front(&mut self) -> Option<T> {
         match self.head.take() {
             Some(head) => {
+                head.borrow_mut().prev = None;
                 self.head = head.borrow_mut().next.take();
                 Some(head.borrow_mut().elem)
             },
