@@ -1,4 +1,6 @@
-/// Binary Search Tree implement with Rust.
-pub mod bst;
-/// Stack implement with Rust.
+/// Binary Search Tree
+pub mod binary_search_tree;
+/// Stack
 pub mod stack;
+// A doubly-linked list with owned nodes.
+pub mod linked_list;

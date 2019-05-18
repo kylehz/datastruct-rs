@@ -4,3 +4,4 @@ Completed list:
 
 - [x] Stack
 - [x] BinaryTree
+- [x] Linked List
