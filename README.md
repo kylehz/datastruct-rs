@@ -1,4 +1,4 @@
-Common datastruct written with Rust
+Common datastruct written with Rust (simplified version of std, just for study)
 
 Completed list:
 
